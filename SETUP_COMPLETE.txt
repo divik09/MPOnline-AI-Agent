@@ -1,0 +1,54 @@
+:: MPOnline Agent - Setup Complete!
+:: =====================================
+::
+:: Virtual Environment Setup:
+:: -------------------------
+:: To activate the virtual environment, run:
+::   .\venv\Scripts\activate
+::
+:: To run the MPOnlineFlight.py script:
+::   .\venv\Scripts\python MPOnlineFlight.py
+::
+:: Required Environment Variables (.env):
+:: -------------------------------------
+:: Make sure your .env file contains:
+::   OPENAI_API_KEY=your-actual-openai-api-key
+::   GOOGLE_API_KEY=your-google-api-key (if using Gemini)
+::
+:: Installed Packages:
+:: ------------------
+:: ✓ langgraph - For agentic workflows
+:: ✓ streamlit - For web UI
+:: ✓ openai - OpenAI API client
+:: ✓ requests - HTTP library
+:: ✓ langchain & langchain-openai - LLM framework
+:: ✓ langchain-google-genai - Google Gemini support
+:: ✓ browser-use - Browser automation agent
+:: ✓ playwright - Browser automation
+:: ✓ python-dotenv - Environment variable management
+:: ✓ And other dependencies
+::
+:: Playwright Browsers:
+:: -------------------
+:: ✓ Chromium installed
+:: ✓ Firefox installed
+:: ✓ WebKit installed
+::
+:: Quick Start:
+:: -----------
+:: 1. Activate virtual environment:
+::    .\venv\Scripts\activate
+::
+:: 2. Verify installation:
+::    python test_installation.py
+::
+:: 3. Run the main script:
+::    python MPOnlineFlight.py
+::
+:: Security Note:
+:: -------------
+:: ✓ Fixed: Hardcoded API keys removed from MPOnlineFlight.py
+:: ✓ API keys are now loaded from .env file
+:: ⚠ Make sure your .env file is in .gitignore
+::
+:: Ready to run! ✓
